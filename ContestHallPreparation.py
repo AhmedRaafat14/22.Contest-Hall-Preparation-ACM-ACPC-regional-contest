@@ -23,7 +23,7 @@ for unusedTestCases in range(0, T):
     for i in range(0, N): 
         line = raw_input().split()
         table += [line]
-    # loop throw matrix and build the probablity rules
+    # loop throw matrix and build The principle of the possibilities
     for i in range(0, N):
         for j in range(0, M):
             if table[i][j] == '-1':
